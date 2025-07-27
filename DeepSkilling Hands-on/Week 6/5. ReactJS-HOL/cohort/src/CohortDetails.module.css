@@ -1,0 +1,66 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  /* display: flex; */
+  justify-content: center;
+  vertical-align: top;
+  margin: 18px 18px 18px 0;
+  border: 1.8px solid #e0e5f1;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(60, 88, 150, 0.10);
+  padding: 23px 18px 16px 18px;
+  transition: box-shadow 0.2s;
+}
+.box:hover {
+  box-shadow: 0 4px 18px rgba(60,88,150,0.18);
+}
+
+.box h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+
+.box h3 {
+  /* Default color (e.g. fallback for .NET) */
+  color: #104be1;
+}
+.box h3 span {
+  /* Java technology coloring - override inline with style for green if needed */
+  color: #1c8c37;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.box dl {
+  margin: 0;
+}
+
+.box dt {
+  font-weight: bold;
+  float: left;
+  clear: left;
+  width: 128px;
+  margin-right: 5px;
+  color: #256;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.box dd {
+  margin: 0 0 12px 0;
+  color: #222;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 940px) {
+  .box {
+    display: block;
+    width: 94%;
+    margin: 18px auto;
+  }
+}
