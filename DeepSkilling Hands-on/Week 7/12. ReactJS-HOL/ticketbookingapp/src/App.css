@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.app-container h1, .page-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+} */
+
+.button-container {
+  margin-top: 20px;
+}
+
+.login-button, .logout-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button {
+  background-color: #dc3545;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.page-container p {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.flight-details-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.flight-details-list li {
+  background-color: #e9ecef;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.flight-details-list li strong {
+  color: #007bff;
+}
+
+.booking-message {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
